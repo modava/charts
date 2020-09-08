@@ -1,0 +1,27 @@
+{
+  "name": "modava/charts",
+  "description": "Charts Modava",
+  "type": "Yii2-extension",
+  "keywords": [
+    "modava",
+    "charts"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Mong Dao",
+      "email": "mongdaovan86@yahoo.com",
+      "homepage": "https://modava.com.vn/"
+    }
+  ],
+  "support": {
+    "wiki": "http://www.yiiframework.com/wiki/",
+    "source": "https://github.com/modava/charts"
+  },
+  "autoload": {
+    "psr-4": {
+      "modava\\charts\\": "src"
+    }
+  },
+  "minimum-stability": "dev"
+}
