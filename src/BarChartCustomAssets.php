@@ -2,23 +2,23 @@
 
 namespace modava\charts;
 
-
 use yii\web\AssetBundle;
 
-class LineChartAssets extends AssetBundle
-{
-    public $sourcePath = '@modava-assets';
 
-    public $css = [
-        'vendors/morris.js/morris.css',
-    ];
+class BarChartCustomAssets extends AssetBundle
+{
+    public $sourcePath = '@modava/charts';
+
+    public $css = [];
 
     public $js = [
-        'vendors/morris.js/morris.min.js',
+        'assets/js/chart-helper.js',
     ];
+
     public $jsOptions = array(
         'position' => \yii\web\View::POS_END
     );
+
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
